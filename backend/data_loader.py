@@ -15,7 +15,7 @@ db = client[os.environ['DB_NAME']]
 
 async def load_alumni_data():
     try:
-        # Read CSV properly using pandas
+        # Read CSV properly using pandasyes
         df = pd.read_csv('/app/backend/alumni_data.csv')
         
         # The first column contains all the header names
